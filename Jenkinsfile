@@ -2,7 +2,8 @@
 
 pipeline {
     agent any
-    stage {
+    
+    stages {
         stage('Unitest-Manulife') {
             steps {
                 echo 'get the code from github repository..'
